@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="TeamWin"
+            fetch="https://github.com/TeamWin"
+            review="https://gerrit.twrp.me"/>
+
+    <remote name="LineageOS"
+            fetch="https://github.com/LineageOS"
+            review="https://review.lineageos.org"/>
+    
+    <remote name="skyhuppa"
+            fetch="https://github.com/skyhuppa"/> 
+    
+    <remote name="omnirom"
+            fetch="https://github.com/omnirom"/> 
+
+    <remote name="github"
+            fetch="https://github.com"/>
+
+    <!-- We need the TeamWin forks of these repos -->
+    
+	<remove-project path="bootable/recovery"/>
+	<remove-project path="build/make" />
+	<remove-project path="build/soong" />
+	<remove-project path="external/icu" />
+    <remove-project path="external/libxml2"/>
+    <remove-project path="external/sqlite"/>
+    <remove-project path="external/libchrome" />
+	<remove-project path="system/core" />
+    <remove-project path="system/libhidl" />
+    <remove-project path="system/security" />
+	<remove-project path="system/update_engine" />
+	<remove-project path="system/vold"/>
+	<remove-project path="hardware/interfaces" />
+    <remove-project path="system/extras" />
+    <remove-project path="cts" />	
+    
+    <!--
+    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+   -->
+    
+    <!-- TWRP lives in TeamWin repo -->
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="skyhuppa" revision="android-15"/>
+
+    <!-- Use TeamWin repos for full recovery compatibility -->
+    <project path="build/make" name="android_build" remote="skyhuppa" revision="android-15" groups="pdk">
+        <copyfile src="core/root.mk" dest="Makefile"/>
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+        <linkfile src="core" dest="build/core"/>
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+        <linkfile src="target" dest="build/target"/>
+        <linkfile src="tools" dest="build/tools"/>
+    </project>
+    <project path="build/soong" name="android_build_soong" remote="skyhuppa" revision="android-15">
+        <linkfile src="root.bp" dest="Android.bp"/>
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
+    </project>
+    <project path="external/icu" name="android_external_icu" remote="skyhuppa" revision="android-15"/>
+    <project path="external/libxml2" name="android_external_libxml2" remote="skyhuppa" revision="android-15"/>
+    <project path="external/python3" name="android_external_python3" remote="TeamWin" revision="android-12.1"/>
+    <project path="external/sqlite" name="android_external_sqlite" remote="skyhuppa" revision="android-15"/>
+    <project path="external/libchrome" name="android_external_libchrome" remote="skyhuppa" revision="android-15"/>
+    <project path="system/core" name="android_system_core" remote="omnirom" revision="android-15"/>
+    <project path="system/libhidl" name="android_system_libhidl" remote="omnirom" revision="android-15"/>
+    <project path="system/security" name="android_system_security" remote="omnirom" revision="android-15"/>
+    <project path="system/update_engine" name="android_system_update_engine" remote="omnirom" revision="android-15"/>
+    <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-15"/>
+    <project path="cts" name="android_cts" remote="TeamWin" revision="android-14.1"/>
+    <project path="system/extras" name="android_system_extras" remote="skyhuppa" revision="android-15"/>
+
+    <!-- Use TeamWin custom vendor repo for build system -->
+    <project path="vendor/twrp" name="android_vendor_twrp" remote="skyhuppa" revision="android-15" />
+
+    <!-- Include phh's treble repo for lptools support -->
+    <project name="phhusson/vendor_lptools" path="external/lptools" remote="github" revision="master" />
+
+    <!-- Include external Magisk repo for repack binaries -->
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin" revision="android-12.1"/>
+
+    <!-- Include external/bash for bash support -->
+    <project path="external/bash" name="android_external_bash" remote="LineageOS" revision="lineage-22.2"/>
+
+    <!-- Include external/libncurses for bash and nano support -->
+    <project path="external/libncurses" name="android_external_libncurses" remote="LineageOS" revision="lineage-22.2"/>
+
+    <!-- Include external/nano for nano support -->
+    <project path="external/nano" name="android_external_nano" remote="LineageOS" revision="lineage-22.2"/>
+
+    <!-- Include ntfs_3g for NTFS support -->
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="LineageOS" revision="lineage-22.2"/>
+
+    <!-- Include for legacy wrappedkey support -->
+    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="omnirom" revision="android-15" />
+
+    <!-- Include lineage-tools for lzma support -->
+    <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="LineageOS" revision="lineage-22.2"/>
+
+    <!-- Common qcom repos -->
+    <project name="android_device_qcom_common" path="device/qcom/common" remote="TeamWin" revision="android-12.1" />
+    <project name="android_device_qcom_twrp-common" path="device/qcom/twrp-common" remote="TeamWin" revision="android-14.1" />
+
+    <project name="android_hardware_qcom_bootctrl" path="hardware/qcom-caf/bootctrl" remote="LineageOS" revision="lineage-22.2-caf" />
+    <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="LineageOS" revision="lineage-22.2" />
+    <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="LineageOS" revision="lineage-22.2" />
+    <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="LineageOS" revision="lineage-22.2" />
+
+    <!-- GCC 4.9 (for inline kernel builds) -->
+  
+    <project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="LineageOS" revision="lineage-19.1" />
+    <project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="LineageOS" revision="lineage-19.1" />
+    <project name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="LineageOS" revision="lineage-19.1" />
+  
+   <!-- LAST: Remove unused projects for minimal manifest -->
+    <include name="remove-minimal.xml"/>
+</manifest>
+
