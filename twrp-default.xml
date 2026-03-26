@@ -18,7 +18,7 @@
             fetch="https://github.com"/>
 
     <!-- We need the TeamWin forks of these repos -->
-    
+    <remove-project name="platform/bootable/recovery"/>
 	<remove-project name="platform/build" />
     <remove-project name="platform/build/soong" />
     <remove-project name="platform/external/icu" />
