@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- We need the TeamWin forks of these repos -->
-    <!-- 	
-	<remove-project path="bootable/recovery"/>
-	<remove-project path="build/make" />
-	<remove-project path="build/soong" />
-	<remove-project path="external/icu" />
-    <remove-project path="external/libxml2"/>
-    <remove-project path="external/sqlite"/>
-    <remove-project path="external/libchrome" />
-	<remove-project path="system/core" />
-    <remove-project path="system/libhidl" />
-    <remove-project path="system/security" />
-	<remove-project path="system/update_engine" />
-	<remove-project path="system/vold"/>
-	<remove-project path="hardware/interfaces" />
-    <remove-project path="system/extras" />  
-	-->
-	
-	<remove-project path="cts" />	
 	<remove-project name="platform/bootable/deprecated-ota" />
 
     <remove-project name="device/amlogic/yukawa" />
