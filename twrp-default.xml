@@ -19,21 +19,20 @@
 
     <!-- We need the TeamWin forks of these repos -->
     
-	<remove-project path="bootable/recovery"/>
-	<remove-project path="build/make" />
-	<remove-project path="build/soong" />
-	<remove-project path="external/icu" />
-    <remove-project path="external/libxml2"/>
-    <remove-project path="external/sqlite"/>
-    <remove-project path="external/libchrome" />
-	<remove-project path="system/core" />
-    <remove-project path="system/libhidl" />
-    <remove-project path="system/security" />
-	<remove-project path="system/update_engine" />
-	<remove-project path="system/vold"/>
-	<remove-project path="hardware/interfaces" />
-    <remove-project path="system/extras" />
-    <remove-project path="cts" />	
+	<remove-project name="platform/build" />
+    <remove-project name="platform/build/soong" />
+    <remove-project name="platform/external/icu" />
+    <remove-project name="platform/external/libxml2" />
+    <remove-project name="platform/external/sqlite" />
+    <remove-project name="platform/external/libchrome" />
+    <remove-project name="platform/system/core" />
+    <remove-project name="platform/system/libhidl" />
+    <remove-project name="platform/system/security" />
+    <remove-project name="platform/system/update_engine" />
+    <remove-project name="platform/system/vold" />
+    <remove-project name="platform/cts" />
+    <remove-project name="platform/hardware/interfaces"/>
+    <remove-project name="platform/system/extras"/>
     
     <!--
     <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
