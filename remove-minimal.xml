@@ -393,6 +393,7 @@
     <remove-project path="hardware/google/av" />
     <remove-project path="hardware/google/gfxstream" />
     <remove-project path="hardware/google/interfaces" />
+    <remove-project path="hardware/google/pixel" />
     <remove-project path="hardware/google/pixel-sepolicy" />
     <remove-project path="hardware/invensense" />
     <remove-project path="hardware/nxp/nfc" />
