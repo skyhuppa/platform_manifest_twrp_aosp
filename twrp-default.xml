@@ -4,7 +4,7 @@
             fetch="https://github.com/LineageOS"
             review="https://review.lineageos.org"/>
 
-    <remote name="twrp-16.0"
+    <remote name="TWRP-Test"
             fetch="https://github.com/TWRP-Test"/>
 
     <remote name="skyhuppa"
