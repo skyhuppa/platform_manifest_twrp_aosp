@@ -574,7 +574,7 @@
     <remove-project name="platform/prebuilts/module_sdk/HealthFitness" />
     <remove-project name="platform/prebuilts/module_sdk/IPsec"/>
     <remove-project name="platform/prebuilts/module_sdk/Media" />
-    <remove-project name="platform/prebuilts/module_sdk/MediaProvider" >
+
     <remove-project name="platform/prebuilts/module_sdk/Nfc"  />
     <remove-project name="platform/prebuilts/module_sdk/OnDevicePersonalization"  />
     <remove-project name="platform/prebuilts/module_sdk/Permission" />
