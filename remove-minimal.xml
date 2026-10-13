@@ -679,7 +679,6 @@
 
     <remove-project path="tools/aadevtools"/>
     <remove-project path="tools/acloud"/>
-    <remove-project path="tools/adt/idea"/>
     <remove-project path="tools/apifinder"/>
     <remove-project path="tools/apksig"/>
     <remove-project path="tools/apkzlib"/>
