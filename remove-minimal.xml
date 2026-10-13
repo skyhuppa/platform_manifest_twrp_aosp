@@ -351,7 +351,9 @@
     <remove-project name="platform/external/wayland-protocols"  />
     <remove-project name="platform/external/webp"/>
     <remove-project name="platform/external/webrtc"/>
-    <remove-project name="platform/external/wpa_supplicant_8"  />
+	
+    <remove-project path="external/wpa_supplicant_8"  />
+	
     <remove-project name="platform/external/wycheproof"/>
     <remove-project name="platform/external/xmp_toolkit"/>
     <remove-project name="platform/external/XNNPACK"  />
