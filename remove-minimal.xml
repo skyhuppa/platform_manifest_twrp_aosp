@@ -341,7 +341,6 @@
 	<remove-project name="platform/external/v4l-utils" />
     <remove-project name="platform/external/vboot_reference"/>
     <remove-project name="platform/external/virglrenderer"  />
-	<remove-project name="tremoloplatform/external/virtio-media" />
     <remove-project name="platform/external/vixl"  />
     <remove-project name="platform/external/vogar"/>
     <remove-project name="platform/external/volley"/>
