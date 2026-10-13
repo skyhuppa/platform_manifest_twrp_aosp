@@ -362,6 +362,19 @@
     <remove-project name="platform/external/xz-java"  />
     <remove-project name="platform/external/yapf"  />
     <remove-project name="platform/external/zxing"/>
+	
+	<remove-project path="external/bazelbuild-rules_android" />
+    <remove-project path="external/bazelbuild-rules_cc" />
+    <remove-project path="external/bazelbuild-rules_java" />
+    <remove-project path="external/bazelbuild-rules_go" />
+    <remove-project path="external/bazelbuild-kotlin-rules" />
+    <remove-project path="external/bazelbuild-platforms" />
+    <remove-project path="external/bazelbuild-rules_license" />
+    <remove-project path="external/bazelbuild-rules_python" />
+    <remove-project path="external/bazelbuild-rules_rust" />
+    <remove-project path="external/bazelbuild-rules_testing" />
+    <remove-project path="external/bazelbuild-remote-apis" />
+    <remove-project path="external/bazel-skylib" />
 
     <remove-project path="frameworks/compile/libbcc" />
     <remove-project path="frameworks/compile/mclinker" />
@@ -550,7 +563,7 @@
     <remove-project name="platform/prebuilts/checkstyle"  />
     <!-- <remove-project name="platform/prebuilts/clang-tools" /> -->
     <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
-    <!-- <remove-project name="platform/prebuilts/clang/host/linux-x86" /> -->
+    <!-- <remove-project name="platform/prebuilts/clang/host/linux-x86" /> --> 
     <remove-project name="platform/prebuilts/cmake/linux-x86"/>
     <remove-project name="platform/prebuilts/cmdline-tools" />
     <remove-project name="platform/prebuilts/devtools" />
@@ -618,7 +631,7 @@
     <remove-project path="system/gatekeeper" />
     <remove-project path="system/gsid" />
     <!-- <remove-project path="system/hardware/interfaces" /> -->
-    <remove-project path="system/hwservicemanager" />
+    <!-- <remove-project path="system/hwservicemanager" /> -->
     <remove-project path="system/incremental_delivery" />
     <remove-project path="system/keymaster" />
     <remove-project path="system/keymint" />
@@ -656,8 +669,8 @@
     <remove-project path="system/teeui" />
     <remove-project path="system/testing/gtest_extras" />
     <remove-project path="system/timezone" />
-    <remove-project path="system/tools/aidl" />
-    <remove-project path="system/tools/hidl" />
+    <!-- <remove-project path="system/tools/aidl" /> -->
+    <!-- <remove-project path="system/tools/hidl" /> -->
     <remove-project path="system/tools/mkbootimg" />
     <remove-project path="system/tools/sysprop" />
     <remove-project path="system/tools/xsdc" />
