@@ -563,7 +563,7 @@
     <remove-project name="platform/prebuilts/checkstyle"  />
     <!-- <remove-project name="platform/prebuilts/clang-tools" /> -->
     <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
-    <remove-project name="platform/prebuilts/clang/host/linux-x86" /> 
+    <!-- <remove-project name="platform/prebuilts/clang/host/linux-x86" /> --> 
     <remove-project name="platform/prebuilts/cmake/linux-x86"/>
     <remove-project name="platform/prebuilts/cmdline-tools" />
     <remove-project name="platform/prebuilts/devtools" />
@@ -613,7 +613,7 @@
     <remove-project name="platform/prebuilts/vndk/v33" />
     <remove-project name="platform/prebuilts/vndk/v34" />
 
-    <remove-project path="system/apex" />
+    <!-- <remove-project path="system/apex" /> -->
     <remove-project path="system/authgraph" />
     <remove-project path="system/bpf" />
     <remove-project path="system/bpfprogs" />
@@ -671,9 +671,9 @@
     <remove-project path="system/timezone" />
     <!-- <remove-project path="system/tools/aidl" /> -->
     <!-- <remove-project path="system/tools/hidl" /> -->
-    <remove-project path="system/tools/mkbootimg" />
-    <remove-project path="system/tools/sysprop" />
-    <remove-project path="system/tools/xsdc" />
+    <!-- <remove-project path="system/tools/mkbootimg" /> -->
+    <!-- <remove-project path="system/tools/sysprop" /> -->
+    <!-- <remove-project path="system/tools/xsdc" /> -->
     <remove-project path="system/unwinding" />
     <remove-project path="system/update_engine" />
     <remove-project path="system/usb_info_tools"/>
