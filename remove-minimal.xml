@@ -542,7 +542,7 @@
     <remove-project name="platform/prebuilts/bazel/common"  />
     <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
     <remove-project name="platform/prebuilts/bazel/linux-x86_64" />
-    <remove-project name="platform/prebuilts/build-tools" />
+    <!-- <remove-project name="platform/prebuilts/build-tools" /> -->
     <remove-project name="platform/prebuilts/bundletool" />
     <remove-project name="platform/prebuilts/checkcolor"  />
     <remove-project name="platform/prebuilts/checkstyle"  />
@@ -706,6 +706,7 @@
     <remove-project path="tools/tradefederation/contrib" />
     <remove-project path="tools/tradefederation/prebuilts" />
     <remove-project path="tools/treble" />
+	<remove-project path="tools/trebuchet" />
 
     <remove-project path="trusty/device/arm/generic-arm64" />
     <remove-project path="trusty/device/arm/vexpress-a15" />
