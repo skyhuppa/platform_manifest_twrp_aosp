@@ -605,7 +605,9 @@
     <remove-project name="platform/system/ca-certificates" />
     <remove-project name="platform/system/chre" />
     <remove-project name="platform/system/connectivity/wificond" />
-    <remove-project name="platform/system/core" />
+	
+    <remove-project path="system/core" />
+	
     <remove-project name="platform/system/cros-codecs" />
     <remove-project name="platform/system/dmesgd" />
     <remove-project name="platform/system/extras" />
