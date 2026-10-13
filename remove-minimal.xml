@@ -610,7 +610,9 @@
 	
     <remove-project name="platform/system/cros-codecs" />
     <remove-project name="platform/system/dmesgd" />
-    <remove-project name="platform/system/extras" />
+	
+    <remove-project path="system/extras" />
+	
     <remove-project name="platform/system/gatekeeper" />
     <remove-project name="platform/system/gsid" />
     <remove-project name="platform/system/hardware/interfaces" />
