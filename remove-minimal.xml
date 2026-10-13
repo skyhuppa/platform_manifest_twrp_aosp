@@ -363,18 +363,18 @@
     <remove-project name="platform/external/yapf"  />
     <remove-project name="platform/external/zxing"/>
 	
-	<remove-project path="external/bazelbuild-rules_android" />
-    <remove-project path="external/bazelbuild-rules_cc" />
-    <remove-project path="external/bazelbuild-rules_java" />
-    <remove-project path="external/bazelbuild-rules_go" />
-    <remove-project path="external/bazelbuild-kotlin-rules" />
-    <remove-project path="external/bazelbuild-platforms" />
-    <remove-project path="external/bazelbuild-rules_license" />
-    <remove-project path="external/bazelbuild-rules_python" />
-    <remove-project path="external/bazelbuild-rules_rust" />
-    <remove-project path="external/bazelbuild-rules_testing" />
-    <remove-project path="external/bazelbuild-remote-apis" />
-    <remove-project path="external/bazel-skylib" />
+	<!-- <remove-project path="external/bazelbuild-rules_android" /> -->
+    <!-- <remove-project path="external/bazelbuild-rules_cc" /> -->
+    <!-- <remove-project path="external/bazelbuild-rules_java" /> -->
+    <!-- <remove-project path="external/bazelbuild-rules_go" /> -->
+    <!-- <remove-project path="external/bazelbuild-kotlin-rules" /> -->
+    <!-- <remove-project path="external/bazelbuild-platforms" /> -->
+    <!-- <remove-project path="external/bazelbuild-rules_license" /> -->
+    <!-- <remove-project path="external/bazelbuild-rules_python" /> -->
+    <!-- <remove-project path="external/bazelbuild-rules_rust" /> -->
+    <!-- <remove-project path="external/bazelbuild-rules_testing" /> -->
+    <!-- <remove-project path="external/bazelbuild-remote-apis" /> -->
+    <!-- <remove-project path="external/bazel-skylib" /> -->
 
     <remove-project path="frameworks/compile/libbcc" />
     <remove-project path="frameworks/compile/mclinker" />
