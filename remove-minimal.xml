@@ -615,7 +615,7 @@
 	
     <remove-project name="platform/system/gatekeeper" />
     <remove-project name="platform/system/gsid" />
-    <remove-project name="platform/system/hardware/interfaces" />
+    <remove-project path="system/hardware/interfaces" />
     <remove-project name="platform/system/hwservicemanager" />
     <remove-project name="platform/system/incremental_delivery" />
     <remove-project name="platform/system/keymaster" />
