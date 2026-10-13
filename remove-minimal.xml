@@ -633,7 +633,7 @@
     <remove-project path="system/libsysprop" />
     <remove-project path="system/libufdt" />
     <remove-project path="system/liburingutils" />
-    <remove-project path="system/libvintf" />
+    <!-- <remove-project path="system/libvintf" /> -->
     <remove-project path="system/libziparchive" />
     <remove-project path="system/linkerconfig" />
     <remove-project path="system/logging" />
