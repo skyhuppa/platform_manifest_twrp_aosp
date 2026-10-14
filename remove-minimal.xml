@@ -565,7 +565,7 @@
     <remove-project name="platform/prebuilts/checkstyle"  />
     <!-- <remove-project name="platform/prebuilts/clang-tools" /> -->
     <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
-    <!-- <remove-project name="platform/prebuilts/clang/host/linux-x86" /> --> 
+    <!-- <remove-project name="platform/prebuilts/clang/host/linux-x86" /> -->
     <remove-project name="platform/prebuilts/cmake/linux-x86"/>
     <remove-project name="platform/prebuilts/cmdline-tools" />
     <remove-project name="platform/prebuilts/devtools" />
