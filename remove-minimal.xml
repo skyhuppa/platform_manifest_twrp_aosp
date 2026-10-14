@@ -376,6 +376,7 @@
     <!-- <remove-project path="external/bazelbuild-remote-apis" /> -->
     <!-- <remove-project path="external/bazel-skylib" /> -->
 
+    <remove-project path="frameworks/base" />
     <remove-project path="frameworks/compile/libbcc" />
     <remove-project path="frameworks/compile/mclinker" />
     <remove-project path="frameworks/compile/slang" />
@@ -680,7 +681,7 @@
     <remove-project path="system/vold" />
     <remove-project path="system/zygote" />
 
-    <!-- <remove-project name="platform/test/app_compat/csuite" /> -->
+    <remove-project name="platform/test/app_compat/csuite" /> 
 	<remove-project name="platform/test/catbox" />
     <remove-project name="platform/test/cts-root" />  
     <remove-project name="platform/test/mlts/benchmark" />
