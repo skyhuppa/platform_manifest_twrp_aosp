@@ -131,7 +131,7 @@
     <remove-project name="platform/external/giflib"/>
     <remove-project name="platform/external/glide"/>
 	<remove-project name="platform/external/gmmlib" />
-    <remove-project name="platform/external/googleapis" />
+    <!-- <remove-project name="platform/external/googleapis" /> -->
     <remove-project name="platform/external/google-auth-library-java" />
     <remove-project name="platform/external/google-benchmark"  />
     <remove-project name="platform/external/google-breakpad"/>
@@ -376,6 +376,7 @@
     <!-- <remove-project path="external/bazelbuild-remote-apis" /> -->
     <!-- <remove-project path="external/bazel-skylib" /> -->
 
+    <!-- <remove-project path="frameworks/av" /> -->
     <remove-project path="frameworks/base" />
     <remove-project path="frameworks/compile/libbcc" />
     <remove-project path="frameworks/compile/mclinker" />
@@ -681,8 +682,8 @@
     <remove-project path="system/vold" />
     <remove-project path="system/zygote" />
 
-    <remove-project path="art" />
-    <remove-project name="platform/test/app_compat/csuite" /> 
+    <!-- <remove-project path="art" /> -->
+    <!-- <remove-project name="platform/test/app_compat/csuite" /> -->
 	<remove-project name="platform/test/catbox" />
     <remove-project name="platform/test/cts-root" />  
     <remove-project name="platform/test/mlts/benchmark" />
