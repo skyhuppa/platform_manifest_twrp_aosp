@@ -681,6 +681,7 @@
     <remove-project path="system/vold" />
     <remove-project path="system/zygote" />
 
+    <remove-project path="art" />
     <remove-project name="platform/test/app_compat/csuite" /> 
 	<remove-project name="platform/test/catbox" />
     <remove-project name="platform/test/cts-root" />  
