@@ -607,13 +607,13 @@
     <remove-project name="platform/prebuilts/remoteexecution-client" />
     <remove-project name="platform/prebuilts/runtime" />
     <remove-project name="platform/prebuilts/rust" />
-    <remove-project name="platform/prebuilts/sdk" />
+    <!-- <remove-project name="platform/prebuilts/sdk" /> -->
     <remove-project name="platform/prebuilts/tools" />
-    <remove-project name="platform/prebuilts/vndk/v30" />
-    <remove-project name="platform/prebuilts/vndk/v31" />
-    <remove-project name="platform/prebuilts/vndk/v32" />
-    <remove-project name="platform/prebuilts/vndk/v33" />
-    <remove-project name="platform/prebuilts/vndk/v34" />
+    <!--<remove-project name="platform/prebuilts/vndk/v30" /> -->
+    <!-- <remove-project name="platform/prebuilts/vndk/v31" /> -->
+    <!-- <remove-project name="platform/prebuilts/vndk/v32" /> -->
+    <!-- <remove-project name="platform/prebuilts/vndk/v33" /> -->
+    <!-- <remove-project name="platform/prebuilts/vndk/v34" /> -->
 
     <!-- <remove-project path="system/apex" /> -->
     <remove-project path="system/authgraph" />
